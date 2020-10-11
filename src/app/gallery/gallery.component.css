@@ -9,6 +9,7 @@
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  position: relative;
 }
 
 .column img {
@@ -16,6 +17,9 @@
   vertical-align: middle;
   width: 100%;
 }
+
+.column .download { position: absolute; bottom:5%; left:93%; }
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {

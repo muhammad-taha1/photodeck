@@ -21,12 +21,8 @@ export class GalleryComponent implements OnInit {
         this.localImages();
       }
       else {
-        this.webImages();
-      }
-
-      console.log(this.oldUrl);
-      if (url[0].path !== this.oldUrl) {
-        this.oldUrl = url[0].path;
+        // this.webImages();
+        this.localImages();
       }
     });
 
@@ -37,11 +33,21 @@ export class GalleryComponent implements OnInit {
     this.images = this.imageFetcher.getLocalImages();
   }
 
+  // webImages() {
+  //   this.clearCurrentImages();
+  //   this.imageFetcher.getImagesFromWeb().subscribe(imgs => {
+  //     imgs['photos'].forEach(element => {
+  //       this.images.push(element.src.medium);
+  //     });
+  //   });
+
+  // }
+
   webImages() {
     this.clearCurrentImages();
     this.imageFetcher.getImagesFromWeb().subscribe(imgs => {
-      imgs['photos'].forEach(element => {
-        this.images.push(element.src.medium);
+      imgs['hits'].forEach(element => {
+        this.images.push(element.webformatURL);
       });
     });
 
@@ -49,6 +55,10 @@ export class GalleryComponent implements OnInit {
 
   clearCurrentImages() {
     this.images = [];
-    // location.reload();
+    this.images.length = 0;
+    this.images = [...this.images];
+    if (document.querySelector('div#imageContainer')) {
+      document.querySelector('div#imageContainer').innerHTML = "";
+    }
   }
 }
