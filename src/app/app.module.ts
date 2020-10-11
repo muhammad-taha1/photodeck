@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatSidenavModule, MatListModule, MatButtonModule, MatIconModule } from '@angular/material';
 import { GalleryComponent } from './gallery/gallery.component';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AppRequestCache } from './request-cache.service';
+import { InterceptorService } from './interceptor.service';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,7 @@ import { GalleryComponent } from './gallery/gallery.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
@@ -22,7 +26,10 @@ import { GalleryComponent } from './gallery/gallery.component';
     MatButtonModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [
+    AppRequestCache,
+    {provide: HTTP_INTERCEPTORS, useClass: InterceptorService, multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
