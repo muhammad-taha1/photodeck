@@ -10,7 +10,6 @@ import { ImageFetcher } from './image-fetcher.service';
 export class GalleryComponent implements OnInit {
 
   images = [];
-  oldUrl = '';
 
   constructor(private imageFetcher: ImageFetcher,
               private activeRoute: ActivatedRoute) { }
@@ -21,8 +20,8 @@ export class GalleryComponent implements OnInit {
         this.localImages();
       }
       else {
-        // this.webImages();
-        this.localImages();
+        this.webImages();
+        // this.localImages();
       }
     });
 
