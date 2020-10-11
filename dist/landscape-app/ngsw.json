@@ -1,0 +1,156 @@
+{
+  "configVersion": 1,
+  "timestamp": 1602451779096,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.898f2b6bed3802d053b1.js",
+        "/main-es5.898f2b6bed3802d053b1.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.4b697ee68ca6f85a5ef8.js",
+        "/polyfills-es5.faf84548044af7ab4c73.js",
+        "/runtime-es2015.66c79b9d36e7169e27b0.js",
+        "/runtime-es5.66c79b9d36e7169e27b0.js",
+        "/styles.7af5442f7c3953c503e5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/download-symbol.png",
+        "/assets/icons/128x128.png",
+        "/assets/icons/16x16.png",
+        "/assets/icons/256x256.png",
+        "/assets/icons/32x32.png",
+        "/assets/icons/512x512.png",
+        "/assets/icons/64x64.png",
+        "/assets/images/20151223_175318.jpg",
+        "/assets/images/20160514_115826.jpg",
+        "/assets/images/20160514_171245.jpg",
+        "/assets/images/20160910_194225.jpg",
+        "/assets/images/20160911_152526_Richtone(HDR).jpg",
+        "/assets/images/20170426_202812.jpg",
+        "/assets/images/20170807_142340.jpg",
+        "/assets/images/20171008_141651.jpg",
+        "/assets/images/20180330_103129.jpg",
+        "/assets/images/20180331_223941.jpg",
+        "/assets/images/20181026_182741.jpg",
+        "/assets/images/20181026_182822.jpg",
+        "/assets/images/20190316_182400.jpg",
+        "/assets/images/20190602_130453.jpg",
+        "/assets/images/20190602_135739.jpg",
+        "/assets/images/20190831_133457.jpg",
+        "/assets/images/20190831_151947.jpg",
+        "/assets/images/20190831_153221.jpg",
+        "/assets/images/20190901_115841.jpg",
+        "/assets/images/20200729_203353.jpg",
+        "/assets/images/DSC00058.JPG",
+        "/assets/images/DSC00068.JPG",
+        "/assets/images/DSC00170.JPG",
+        "/assets/images/DSC00193.JPG",
+        "/assets/images/DSC00265.JPG",
+        "/assets/images/DSC00293.JPG",
+        "/assets/images/DSC00344.JPG",
+        "/assets/refresh.png",
+        "/assets/sync.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "web-images",
+      "patterns": [
+        "https:\\/\\/pixabay\\.com\\/api\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/download-symbol.png": "012ccc9d7c8b2a34c40931364132386c01602fd4",
+    "/assets/icons/128x128.png": "8e812f15741c9e9feaa473343d7d281ffb2a1f6c",
+    "/assets/icons/16x16.png": "11fe8ab6cc30e8f63d0718820b95b0e24820ec8b",
+    "/assets/icons/256x256.png": "2a522d1c4abdb11a580e96b301c59a61f363b3c0",
+    "/assets/icons/32x32.png": "65bf9e1714d0bb4e28f04024c3cf506301986763",
+    "/assets/icons/512x512.png": "395f317a25330f2d3295d661b720893e8fef0d04",
+    "/assets/icons/64x64.png": "45c8235917fdc5fbc110701c104b01feac0952eb",
+    "/assets/images/20151223_175318.jpg": "bfb23e99894a10ef956684b4d1946d6d14cd75ae",
+    "/assets/images/20160514_115826.jpg": "b316206c5c1de889380b5049a9a664056abfa12a",
+    "/assets/images/20160514_171245.jpg": "7ae82d8769bebbc39c90e100c50c6277807eb0e5",
+    "/assets/images/20160910_194225.jpg": "6a6a86ff8b43a0b956b712637b097f9239b38359",
+    "/assets/images/20160911_152526_Richtone(HDR).jpg": "cfdf86e438a8945a0ebc2249d8f8c2d9b191c335",
+    "/assets/images/20170426_202812.jpg": "76aa2b31f82f31239784619c68850f7b419c6e92",
+    "/assets/images/20170807_142340.jpg": "c2969c36e374eab62518896fd1774c847cb4c00d",
+    "/assets/images/20171008_141651.jpg": "45c3115536c68df6324fd770f5a85ccdd24c86f9",
+    "/assets/images/20180330_103129.jpg": "92a68f627f137ac59c0de5732e00cae01e669298",
+    "/assets/images/20180331_223941.jpg": "d8b3a433c0bf676fb31890211a89613fc8ae33ba",
+    "/assets/images/20181026_182741.jpg": "0e591e59420c4b9d2213f6d77347e8c6b61c900c",
+    "/assets/images/20181026_182822.jpg": "6909750bd636db0586388fca357c4f82f02035fc",
+    "/assets/images/20190316_182400.jpg": "84dbe9123224283f33941bd3ddc523366074f3f6",
+    "/assets/images/20190602_130453.jpg": "0ddb87a73091505c9620724e38b8c27b480d1f66",
+    "/assets/images/20190602_135739.jpg": "4336766d928c66b80cd96dc5cbd1665b034c6a25",
+    "/assets/images/20190831_133457.jpg": "8a3a354a9a1425d203cada57021a84f89f250bf3",
+    "/assets/images/20190831_151947.jpg": "e38ec8c0833f8b87ca3205a8b25f5eb4edcfd4c6",
+    "/assets/images/20190831_153221.jpg": "a3e4645e56a39e7e31268eb79fd041c79dd4571b",
+    "/assets/images/20190901_115841.jpg": "2ed87eae89206f5a952e38ae9b64dd92e13f154c",
+    "/assets/images/20200729_203353.jpg": "903dc24ce653ac2216455b23607a440df23caae3",
+    "/assets/images/DSC00058.JPG": "ac5467206d75d3b6ea35ce10a075382685ebcb0e",
+    "/assets/images/DSC00068.JPG": "206924c2635bd51be612a0302e9c78906c49c0a6",
+    "/assets/images/DSC00170.JPG": "bf2c3d623731a904a7bffd41d8ca11c7b2df21d0",
+    "/assets/images/DSC00193.JPG": "7552cd3a86794c909bb2f7f232fa9001e72d1f3e",
+    "/assets/images/DSC00265.JPG": "bc90f080841dd2842db12037b80a1577aef58264",
+    "/assets/images/DSC00293.JPG": "f3d17d2bc09c0122a1a7de1c8384898ec7391fd6",
+    "/assets/images/DSC00344.JPG": "3715162b4f9ebbb9635d3230f1b02b58c576e988",
+    "/assets/refresh.png": "c99e6734aa63ebdfe01708f23dad61d858c00fa8",
+    "/assets/sync.png": "73a644e573048e4b1beac6ee2fd8fb0e585dc1de",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "a5533ac3ad44966b6964203e7892ed55c25d6256",
+    "/main-es2015.898f2b6bed3802d053b1.js": "9294430228141523fe60a62c93245272b8ff0102",
+    "/main-es5.898f2b6bed3802d053b1.js": "0deb4e1729fb9d4f8d24dcc37ab7e3013c93d0ad",
+    "/manifest.webmanifest": "e58334054156be033e1098a3f4b052e02b277101",
+    "/polyfills-es2015.4b697ee68ca6f85a5ef8.js": "3f82dd6ed42c2c4d7af22db802e1b9be3531ea2f",
+    "/polyfills-es5.faf84548044af7ab4c73.js": "0a374fb6b097c6f259ddbefe2bc279adff24c008",
+    "/runtime-es2015.66c79b9d36e7169e27b0.js": "f6154adc3ffbc892dcec454922fbbb4c1d2d0285",
+    "/runtime-es5.66c79b9d36e7169e27b0.js": "4742bb5c75786a0b1ed17923927a5b82ddfac365",
+    "/styles.7af5442f7c3953c503e5.css": "ca11843e9499597ff0d95e14efdc7150292e98bc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
