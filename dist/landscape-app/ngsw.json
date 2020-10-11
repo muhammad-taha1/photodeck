@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1602453175681,
+  "timestamp": 1602453396790,
   "index": "https://muhammad-taha1.github.io/photodeck/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,8 @@
       "urls": [
         "https://muhammad-taha1.github.io/photodeck/favicon.ico",
         "https://muhammad-taha1.github.io/photodeck/index.html",
-        "https://muhammad-taha1.github.io/photodeck/main-es2015.7b694d05b9e0b11e512d.js",
-        "https://muhammad-taha1.github.io/photodeck/main-es5.7b694d05b9e0b11e512d.js",
+        "https://muhammad-taha1.github.io/photodeck/main-es2015.898f2b6bed3802d053b1.js",
+        "https://muhammad-taha1.github.io/photodeck/main-es5.898f2b6bed3802d053b1.js",
         "https://muhammad-taha1.github.io/photodeck/manifest.webmanifest",
         "https://muhammad-taha1.github.io/photodeck/polyfills-es2015.4b697ee68ca6f85a5ef8.js",
         "https://muhammad-taha1.github.io/photodeck/polyfills-es5.faf84548044af7ab4c73.js",
@@ -125,9 +125,9 @@
     "https://muhammad-taha1.github.io/photodeck/assets/refresh.png": "c99e6734aa63ebdfe01708f23dad61d858c00fa8",
     "https://muhammad-taha1.github.io/photodeck/assets/sync.png": "73a644e573048e4b1beac6ee2fd8fb0e585dc1de",
     "https://muhammad-taha1.github.io/photodeck/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://muhammad-taha1.github.io/photodeck/index.html": "fd8d9f4914237bb14767093a472eb1ad48cfac02",
-    "https://muhammad-taha1.github.io/photodeck/main-es2015.7b694d05b9e0b11e512d.js": "3dad0a420ef34cc93ab196a856d1482af7c501b4",
-    "https://muhammad-taha1.github.io/photodeck/main-es5.7b694d05b9e0b11e512d.js": "165adce0dad749e07d577d0742f6baccefc83e6f",
+    "https://muhammad-taha1.github.io/photodeck/index.html": "454d2b1141971aa072d44c9245c55259f38e73cd",
+    "https://muhammad-taha1.github.io/photodeck/main-es2015.898f2b6bed3802d053b1.js": "9294430228141523fe60a62c93245272b8ff0102",
+    "https://muhammad-taha1.github.io/photodeck/main-es5.898f2b6bed3802d053b1.js": "0deb4e1729fb9d4f8d24dcc37ab7e3013c93d0ad",
     "https://muhammad-taha1.github.io/photodeck/manifest.webmanifest": "e58334054156be033e1098a3f4b052e02b277101",
     "https://muhammad-taha1.github.io/photodeck/polyfills-es2015.4b697ee68ca6f85a5ef8.js": "3f82dd6ed42c2c4d7af22db802e1b9be3531ea2f",
     "https://muhammad-taha1.github.io/photodeck/polyfills-es5.faf84548044af7ab4c73.js": "0a374fb6b097c6f259ddbefe2bc279adff24c008",
