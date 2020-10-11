@@ -41,7 +41,7 @@ export class ImageFetcher {
   // authKey = '563492ad6f9170000100000105e0d20fc08f4be7a2049f376bcb492a';
   authKey = '18667369-b6a36730efcf6feb4722aef27';
   // picUrl = 'https://api.pexels.com/v1/search?query=landscape&per_page=30&page=';
-  picUrl = 'https://pixabay.com/api/?key=18667369-b6a36730efcf6feb4722aef27&q=landscape&per_page=5&page=';
+  picUrl = 'https://pixabay.com/api/?key=18667369-b6a36730efcf6feb4722aef27&q=landscape&per_page=20&page=';
 
 
   // getImagesFromWeb() {

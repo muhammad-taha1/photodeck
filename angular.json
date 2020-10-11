@@ -121,9 +121,13 @@
               "devServerTarget": "landscape-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "landscape-app"
+  "defaultProject": "photodeck"
 }
