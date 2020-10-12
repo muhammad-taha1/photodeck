@@ -20,8 +20,8 @@ export class GalleryComponent implements OnInit {
         this.localImages();
       }
       else {
-        this.webImages();
-        // this.localImages();
+        // this.webImages();
+        this.localImages();
       }
     });
 

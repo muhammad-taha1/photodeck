@@ -1,5 +1,5 @@
-<div id="imageContainer" class="row no-gutters">
-  <div class="column" *ngFor="let image of images">
-    <img class="w-100 img-float" [src]="image" />
+<div class="photos" id="imageContainer">
+  <div *ngFor="let image of images">
+    <img [src]="image" />
   </div>
 </div>
