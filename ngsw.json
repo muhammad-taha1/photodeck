@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1602456896710,
+  "timestamp": 1602531671675,
   "index": "/photodeck/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,8 @@
       "urls": [
         "/photodeck/favicon.ico",
         "/photodeck/index.html",
-        "/photodeck/main-es2015.74968314096696d5afa4.js",
-        "/photodeck/main-es5.74968314096696d5afa4.js",
+        "/photodeck/main-es2015.2379743bbf61fce027ac.js",
+        "/photodeck/main-es5.2379743bbf61fce027ac.js",
         "/photodeck/manifest.webmanifest",
         "/photodeck/polyfills-es2015.4b697ee68ca6f85a5ef8.js",
         "/photodeck/polyfills-es5.faf84548044af7ab4c73.js",
@@ -33,6 +33,7 @@
       },
       "urls": [
         "/photodeck/assets/download-symbol.png",
+        "/photodeck/assets/download.png",
         "/photodeck/assets/icons/128x128.png",
         "/photodeck/assets/icons/16x16.png",
         "/photodeck/assets/icons/256x256.png",
@@ -65,9 +66,7 @@
         "/photodeck/assets/images/DSC00193.JPG",
         "/photodeck/assets/images/DSC00265.JPG",
         "/photodeck/assets/images/DSC00293.JPG",
-        "/photodeck/assets/images/DSC00344.JPG",
-        "/photodeck/assets/refresh.png",
-        "/photodeck/assets/sync.png"
+        "/photodeck/assets/images/DSC00344.JPG"
       ],
       "patterns": []
     }
@@ -89,6 +88,7 @@
   ],
   "hashTable": {
     "/photodeck/assets/download-symbol.png": "012ccc9d7c8b2a34c40931364132386c01602fd4",
+    "/photodeck/assets/download.png": "a44c1af80704f5066cad2c3869992566c87385f0",
     "/photodeck/assets/icons/128x128.png": "8e812f15741c9e9feaa473343d7d281ffb2a1f6c",
     "/photodeck/assets/icons/16x16.png": "11fe8ab6cc30e8f63d0718820b95b0e24820ec8b",
     "/photodeck/assets/icons/256x256.png": "2a522d1c4abdb11a580e96b301c59a61f363b3c0",
@@ -122,12 +122,10 @@
     "/photodeck/assets/images/DSC00265.JPG": "bc90f080841dd2842db12037b80a1577aef58264",
     "/photodeck/assets/images/DSC00293.JPG": "f3d17d2bc09c0122a1a7de1c8384898ec7391fd6",
     "/photodeck/assets/images/DSC00344.JPG": "3715162b4f9ebbb9635d3230f1b02b58c576e988",
-    "/photodeck/assets/refresh.png": "c99e6734aa63ebdfe01708f23dad61d858c00fa8",
-    "/photodeck/assets/sync.png": "73a644e573048e4b1beac6ee2fd8fb0e585dc1de",
     "/photodeck/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/photodeck/index.html": "22c79a423f32fe98d43ec8af5a657aba70167e82",
-    "/photodeck/main-es2015.74968314096696d5afa4.js": "430232ddef28a3f6ccf7bc57f0fd2db227288ce5",
-    "/photodeck/main-es5.74968314096696d5afa4.js": "091ec1b08e1bd7a9cff98b76a49b5029b7acfd28",
+    "/photodeck/index.html": "98d3c8093c831e29f89a26995d281bc7f66b293d",
+    "/photodeck/main-es2015.2379743bbf61fce027ac.js": "95f87731b30d4c22186ff082fb234ca96b3a8804",
+    "/photodeck/main-es5.2379743bbf61fce027ac.js": "5871726cfb005d34d65e2b777c4a5479f343ea52",
     "/photodeck/manifest.webmanifest": "e58334054156be033e1098a3f4b052e02b277101",
     "/photodeck/polyfills-es2015.4b697ee68ca6f85a5ef8.js": "3f82dd6ed42c2c4d7af22db802e1b9be3531ea2f",
     "/photodeck/polyfills-es5.faf84548044af7ab4c73.js": "0a374fb6b097c6f259ddbefe2bc279adff24c008",
